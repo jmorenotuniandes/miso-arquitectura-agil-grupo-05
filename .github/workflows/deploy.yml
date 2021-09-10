@@ -1,0 +1,49 @@
+name: Deployment
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  Microservicio1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: "77d6b212-02cf-41f8-9b4c-c07c207d0876"
+          heroku_app_name: "microservicio-uno-grupo5"
+          heroku_email: "j.monterov@uniandes.edu.co"
+          appdir: "microservicio"
+
+  Microservicio2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: "77d6b212-02cf-41f8-9b4c-c07c207d0876"
+          heroku_app_name: "microservicio-dos-grupo5"
+          heroku_email: "j.monterov@uniandes.edu.co"
+          appdir: "microservicio"
+
+  Microservicio3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: "77d6b212-02cf-41f8-9b4c-c07c207d0876"
+          heroku_app_name: "microservicio-tres-grupo5"
+          heroku_email: "j.monterov@uniandes.edu.co"
+          appdir: "microservicio"
+
+  Monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: "77d6b212-02cf-41f8-9b4c-c07c207d0876"
+          heroku_app_name: "monitor-grupo5"
+          heroku_email: "j.monterov@uniandes.edu.co"
+          appdir: "monitor"

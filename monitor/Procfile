@@ -1,0 +1,2 @@
+heroku ps:scale web=1
+web gunicorn --chdir flaskr app:app --preload
