@@ -14,11 +14,8 @@ class GenerarDatos(Resource):
             while fin > datetime.now():
                 try:
                     print(f'{datetime.now()}')
-                    requests.get('http://localhost:4900/monitor/registropaciente')
                     requests.get('http://localhost:4901/registropaciente/ping')
-                    requests.get('http://localhost:4900/monitor/registropaciente')
                     requests.get('http://localhost:4902/registropaciente/ping')
-                    requests.get('http://localhost:4900/monitor/registropaciente')                    
                     requests.get('http://localhost:4903/registropaciente/ping')
                 except:
                     print('Error en la ejecición')
