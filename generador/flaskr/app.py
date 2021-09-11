@@ -1,4 +1,4 @@
-from flaskr.vistas.vistas import VistaPing
+from flaskr.vistas.vistas import GenerarDatos
 from flaskr import create_app
 from flask_restful import Api
 from flask_jwt_extended import JWTManager
@@ -11,10 +11,8 @@ app_context.push()
 cors = CORS(app)
 
 api = Api(app)
-api.add_resource(VistaPing, '/registropaciente/ping')
+api.add_resource(GenerarDatos, '/run')
 
 jwt = JWTManager(app)
 
 
-
- 
