@@ -1,66 +1,56 @@
-jlopez@u20:~/miso-arquitectura-agil-grupo-05/microservicio/flaskr$ flask run -p 4903
+jlopez@u20:~/miso-arquitectura-agil-grupo-05/microservicio/flaskr$ flask run -p 4902
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
- * Running on http://127.0.0.1:4903/ (Press CTRL+C to quit)
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 406 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 400 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 401 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:21 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:21] "GET /registropaciente/ping HTTP/1.1" 401 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:22 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:44:22] "GET /registropaciente/ping HTTP/1.1" 403 -
-10/09/2021 11:44:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:44:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:44:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 505 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 200 -
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 500 -
+ * Running on http://127.0.0.1:4902/ (Press CTRL+C to quit)
+12/09/2021 10:27:30 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:30] "GET /registropaciente/ping HTTP/1.1" 403 -
+12/09/2021 10:27:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:31] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:32 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:32] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:33] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:34 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:34] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:27:35 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:35] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:27:36 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:36] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:37] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:38 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:38] "GET /registropaciente/ping HTTP/1.1" 500 -
+12/09/2021 10:27:39 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:39] "GET /registropaciente/ping HTTP/1.1" 401 -
+12/09/2021 10:27:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:40] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:41] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:42] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:43 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:43] "GET /registropaciente/ping HTTP/1.1" 409 -
+12/09/2021 10:27:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:27:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:55] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:56 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:27:56 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:56] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:57 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:27:57 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:27:57] "GET /registropaciente/ping HTTP/1.1" 403 -
+12/09/2021 10:27:58 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:27:58 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:58] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:27:59 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:27:59 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:27:59] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:00 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:28:00 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:00] "GET /registropaciente/ping HTTP/1.1" 403 -
+127.0.0.1 - - [12/Sep/2021 10:28:01] "GET /registropaciente/ping HTTP/1.1" 500 -
 Error on request:
 Traceback (most recent call last):
   File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
@@ -104,171 +94,554 @@ Traceback (most recent call last):
   File "/home/jlopez/miso-arquitectura-agil-grupo-05/microservicio/flaskr/vistas/vistas.py", line 34, in get
     errorCode = erroCodes[responseIndex]
 IndexError: list index out of range
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 505 -
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:02] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:22 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
-10/09/2021 11:45:22 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:22] "GET /registropaciente/ping HTTP/1.1" 408 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 404 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 503 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 403 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 406 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 504 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
-10/09/2021 11:45:42 PM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:42] "GET /registropaciente/ping HTTP/1.1" 400 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 401 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 500 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 505 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 403 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:45:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:45:43] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 504 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 401 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:46:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:46:23] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 405 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 409 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 503 -
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-10/09/2021 11:47:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
-127.0.0.1 - - [10/Sep/2021 23:47:03] "GET /registropaciente/ping HTTP/1.1" 200 -
-10/09/2021 11:47:23 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-10/09/2021 11:47:23 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
-127.0.0.1 - - [10/Sep/2021 23:47:23] "GET /registropaciente/ping HTTP/1.1" 503 -
-jlopez@u20:~/miso-arquitectura-agil-grupo-05/microservicio/flaskr$ 
-
-
+12/09/2021 10:28:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:28:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:28:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:02] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:28:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:03] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:28:04] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:04 AM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+12/09/2021 10:28:04 AM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:05] "GET /registropaciente/ping HTTP/1.1" 404 -
+12/09/2021 10:28:06 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:06 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:06] "GET /registropaciente/ping HTTP/1.1" 405 -
+127.0.0.1 - - [12/Sep/2021 10:28:07] "GET /registropaciente/ping HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/jlopez/miso-arquitectura-agil-grupo-05/microservicio/flaskr/vistas/vistas.py", line 34, in get
+    errorCode = erroCodes[responseIndex]
+IndexError: list index out of range
+12/09/2021 10:28:08 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+12/09/2021 10:28:08 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+12/09/2021 10:28:08 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:08] "GET /registropaciente/ping HTTP/1.1" 503 -
+12/09/2021 10:28:09 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:28:09 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:28:09 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:09] "GET /registropaciente/ping HTTP/1.1" 408 -
+12/09/2021 10:28:10 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:10 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:10 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:10] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:11 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:11 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:11 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:11] "GET /registropaciente/ping HTTP/1.1" 401 -
+12/09/2021 10:28:12 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:12 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:12 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:12] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:13 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:13 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:13 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:13] "GET /registropaciente/ping HTTP/1.1" 405 -
+12/09/2021 10:28:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:25] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:26 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+12/09/2021 10:28:26 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+12/09/2021 10:28:26 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+12/09/2021 10:28:26 AM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:26] "GET /registropaciente/ping HTTP/1.1" 503 -
+12/09/2021 10:28:34 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:34 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:34 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:34 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:28:34] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:38 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:38 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:38 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:38 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:38] "GET /registropaciente/ping HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2021 10:28:39] "GET /registropaciente/ping HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/jlopez/miso-arquitectura-agil-grupo-05/microservicio/flaskr/vistas/vistas.py", line 34, in get
+    errorCode = erroCodes[responseIndex]
+IndexError: list index out of range
+12/09/2021 10:28:40 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:40 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:40 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:40 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:28:40 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:40] "GET /registropaciente/ping HTTP/1.1" 401 -
+12/09/2021 10:28:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:41] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:42] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:43] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:44 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:44 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:44 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:44 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:44 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:44] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:45 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:45 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:45 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:45 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:45 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:45] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:46 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:28:46 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:28:46 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:28:46 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:28:46 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:46] "GET /registropaciente/ping HTTP/1.1" 403 -
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:28:47] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:28:47 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:28:47] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:28:48 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:48 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:48 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:28:48 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:28:48] "GET /registropaciente/ping HTTP/1.1" 405 -
+12/09/2021 10:29:00 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:00 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:00 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:00 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:00 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:00] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:01 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:01 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:01 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:01 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:01 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:01] "GET /registropaciente/ping HTTP/1.1" 405 -
+12/09/2021 10:29:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:02 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:02] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:29:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:03 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:03] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:04 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:04 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:04 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:04 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:04 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:04] "GET /registropaciente/ping HTTP/1.1" 408 -
+12/09/2021 10:29:09 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:09 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:09 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:09 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:09 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:29:09] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:16 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:16 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:16 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:16 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:16 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:16] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:17 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:17 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:17 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:17 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:17 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:17] "GET /registropaciente/ping HTTP/1.1" 405 -
+12/09/2021 10:29:18 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:18 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:18 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:18 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:18 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:18] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:19 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:29:19 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:29:19 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:29:19 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:29:19 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:19] "GET /registropaciente/ping HTTP/1.1" 500 -
+12/09/2021 10:29:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:20] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:21] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:22] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:23 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:23 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:23 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:23 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:23 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:23] "GET /registropaciente/ping HTTP/1.1" 403 -
+127.0.0.1 - - [12/Sep/2021 10:29:24] "GET /registropaciente/ping HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 319, in run_wsgi
+    execute(self.server.app)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 308, in execute
+    application_iter = app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/_compat.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/jlopez/.local/lib/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/jlopez/miso-arquitectura-agil-grupo-05/microservicio/flaskr/vistas/vistas.py", line 34, in get
+    errorCode = erroCodes[responseIndex]
+IndexError: list index out of range
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:29:25] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:25 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:25] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:26 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:26 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:26 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:26 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+12/09/2021 10:29:26 AM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:26] "GET /registropaciente/ping HTTP/1.1" 403 -
+12/09/2021 10:29:27 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:27 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:27 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:27 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:27 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:27] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:28 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:28 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:28 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:28 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:28 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:28] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:29 AM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+12/09/2021 10:29:29 AM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+12/09/2021 10:29:29 AM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+12/09/2021 10:29:29 AM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+12/09/2021 10:29:29 AM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:29] "GET /registropaciente/ping HTTP/1.1" 400 -
+12/09/2021 10:29:30 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:29:30 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:29:30 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:29:30 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+12/09/2021 10:29:30 AM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:30] "GET /registropaciente/ping HTTP/1.1" 401 -
+12/09/2021 10:29:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:31 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:31] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:32 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:32 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:32 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:32 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+12/09/2021 10:29:32 AM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:32] "GET /registropaciente/ping HTTP/1.1" 405 -
+12/09/2021 10:29:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:33 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:33] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:34 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:34 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:34 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:34 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:34 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:34] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:35 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:35 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:35 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:35 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+12/09/2021 10:29:35 AM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:35] "GET /registropaciente/ping HTTP/1.1" 408 -
+12/09/2021 10:29:36 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:36 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:36 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:36 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:36 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:36] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:29:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:37 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:37] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:38 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:38 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:38 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:38 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:29:38 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:38] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:29:39 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:29:39 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:29:39 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:29:39 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:29:39 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:39] "GET /registropaciente/ping HTTP/1.1" 504 -
+12/09/2021 10:29:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:40 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:40] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:41 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:41] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:42 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:42] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:43 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:43] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:29:55 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:29:55] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+12/09/2021 10:29:56 AM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:29:56] "GET /registropaciente/ping HTTP/1.1" 409 -
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:04 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:30:04] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+12/09/2021 10:30:08 AM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:30:08] "GET /registropaciente/ping HTTP/1.1" 504 -
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:17 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:30:17] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:20 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:30:20] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:21 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:30:21] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:22 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:30:22] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:23 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:30:23] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+12/09/2021 10:30:24 AM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:30:24] "GET /registropaciente/ping HTTP/1.1" 406 -
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+12/09/2021 10:30:25 AM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+127.0.0.1 - - [12/Sep/2021 10:30:25] "GET /registropaciente/ping HTTP/1.1" 500 -
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+12/09/2021 10:30:26 AM - LlamadaMicroservicio - DEBUG - 200 OK
+127.0.0.1 - - [12/Sep/2021 10:30:26] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:29 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:30:29] "GET /registropaciente/ping HTTP/1.1" 200 -
+12/09/2021 10:30:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+12/09/2021 10:30:47 AM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+127.0.0.1 - - [12/Sep/2021 10:30:47] "GET /registropaciente/ping HTTP/1.1" 200
