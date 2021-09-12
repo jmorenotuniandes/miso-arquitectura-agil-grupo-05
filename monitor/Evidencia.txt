@@ -4,262 +4,292 @@ jlopez@u20:~/miso-arquitectura-agil-grupo-05/monitor/flaskr$ flask run -p 4900
    Use a production WSGI server instead.
  * Debug mode: off
  * Running on http://127.0.0.1:4900/ (Press CTRL+C to quit)
-127.0.0.1 - - [12/Sep/2021 10:42:31] "GET / HTTP/1.1" 404 -
-12/09/2021 10:43:18 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
-12/09/2021 10:43:18 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:43:19 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:43:20 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:43:20 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:00.372406 y 2021-09-12 10:43:20.372406
-12/09/2021 10:43:21 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
-12/09/2021 10:43:22 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:43:22 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:43:22 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:02.393163 y 2021-09-12 10:43:22.393163
-12/09/2021 10:43:23 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:43:23 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
-12/09/2021 10:43:24 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:43:24 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:04.413537 y 2021-09-12 10:43:24.413537
-12/09/2021 10:43:25 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:43:25 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
-12/09/2021 10:43:26 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:43:26 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
-12/09/2021 10:43:26 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:06.434771 y 2021-09-12 10:43:26.434771
-12/09/2021 10:43:27 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:43:27 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:07.445847 y 2021-09-12 10:43:27.445847
-12/09/2021 10:43:28 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:43:28 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
-12/09/2021 10:43:28 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
-12/09/2021 10:43:29 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
-12/09/2021 10:43:29 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
-12/09/2021 10:43:30 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
-12/09/2021 10:43:30 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:43:10.370200 y 2021-09-12 10:43:30.370200
-12/09/2021 10:43:30 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:43:33 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:43:33 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
-12/09/2021 10:43:33 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:13.497793 y 2021-09-12 10:43:33.497793
-12/09/2021 10:43:34 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:43:40 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:43:40 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:20.481779 y 2021-09-12 10:43:40.481779
-12/09/2021 10:43:41 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:43:44 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
-12/09/2021 10:43:46 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:43:46 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:43:26.420417 y 2021-09-12 10:43:46.420417
-12/09/2021 10:43:46 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:43:47 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:43:47 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:27.533214 y 2021-09-12 10:43:47.533214
-12/09/2021 10:43:48 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:43:50 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
-12/09/2021 10:43:51 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
-12/09/2021 10:43:51 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:31.564007 y 2021-09-12 10:43:51.564007
-12/09/2021 10:43:52 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:43:54 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:43:54 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:34.516660 y 2021-09-12 10:43:54.516660
-12/09/2021 10:43:55 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
-12/09/2021 10:43:56 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:43:57 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
-12/09/2021 10:43:58 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:44:00 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
-12/09/2021 10:44:05 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:44:05 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:43:45.493334 y 2021-09-12 10:44:05.493334
-12/09/2021 10:44:06 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:44:06 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
-12/09/2021 10:44:08 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:44:08 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:48.552358 y 2021-09-12 10:44:08.552358
-12/09/2021 10:44:09 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:44:09 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:44:09 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:44:09 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:49.626738 y 2021-09-12 10:44:09.626738
-12/09/2021 10:44:10 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:44:11 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
-12/09/2021 10:44:12 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:44:12 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:43:52.581050 y 2021-09-12 10:44:12.581050
-12/09/2021 10:44:12 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:44:13 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:44:13 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:43:53.554641 y 2021-09-12 10:44:13.554641
-12/09/2021 10:44:14 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
-12/09/2021 10:44:14 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
-12/09/2021 10:44:14 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:43:54.665805 y 2021-09-12 10:44:14.665805
-12/09/2021 10:44:15 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:44:17 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
-12/09/2021 10:44:17 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:44:17 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
-12/09/2021 10:44:19 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:44:19 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:43:59.600067 y 2021-09-12 10:44:19.600067
-12/09/2021 10:44:19 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
-12/09/2021 10:44:20 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
-12/09/2021 10:44:21 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
-12/09/2021 10:44:23 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
-12/09/2021 10:44:23 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:03.658971 y 2021-09-12 10:44:23.658971
-12/09/2021 10:44:24 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
-12/09/2021 10:44:24 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:04.742335 y 2021-09-12 10:44:24.742335
-12/09/2021 10:44:25 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:44:26 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:44:27 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:44:27 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:07.661610 y 2021-09-12 10:44:27.661610
-12/09/2021 10:44:28 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
-12/09/2021 10:44:30 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
-12/09/2021 10:44:32 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
-12/09/2021 10:44:32 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:12.698182 y 2021-09-12 10:44:32.698182
-12/09/2021 10:44:32 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:44:32 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:12.731379 y 2021-09-12 10:44:32.731379
-12/09/2021 10:44:33 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
-12/09/2021 10:44:38 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:44:38 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
-12/09/2021 10:44:39 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:44:39 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 400
-12/09/2021 10:44:40 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:44:40 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:20.795428 y 2021-09-12 10:44:40.795428
-12/09/2021 10:44:41 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:44:42 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:44:42 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:22.816685 y 2021-09-12 10:44:42.816685
-12/09/2021 10:44:42 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
-12/09/2021 10:44:43 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:44:44 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:44:44 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:44:45 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
-12/09/2021 10:44:45 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:25.720012 y 2021-09-12 10:44:45.720012
-12/09/2021 10:44:46 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
-12/09/2021 10:44:46 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:44:46 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:26.856328 y 2021-09-12 10:44:46.856328
-12/09/2021 10:44:47 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:44:47 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:44:47 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:27.867046 y 2021-09-12 10:44:47.867046
-12/09/2021 10:44:48 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:44:49 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:44:49 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:44:50 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:44:50 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:30.895555 y 2021-09-12 10:44:50.895555
-12/09/2021 10:44:51 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:44:51 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:31.906323 y 2021-09-12 10:44:51.906323
-12/09/2021 10:44:52 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:44:54 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
-12/09/2021 10:44:56 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
-12/09/2021 10:44:57 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:44:57 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
-12/09/2021 10:44:57 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
-12/09/2021 10:44:57 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:37.968640 y 2021-09-12 10:44:57.968640
-12/09/2021 10:44:58 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
-12/09/2021 10:44:59 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:44:59 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:39.758744 y 2021-09-12 10:44:59.758744
-12/09/2021 10:44:59 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
-12/09/2021 10:45:00 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
-12/09/2021 10:45:00 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:40.999453 y 2021-09-12 10:45:00.999453
-12/09/2021 10:45:00 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
-12/09/2021 10:45:00 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:40.999713 y 2021-09-12 10:45:00.999713
-12/09/2021 10:45:01 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
-12/09/2021 10:45:02 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
-12/09/2021 10:45:02 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:45:02 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:45:03 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
-12/09/2021 10:45:03 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:45:03 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:43.787824 y 2021-09-12 10:45:03.787824
-12/09/2021 10:45:04 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:45:04 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:44.028893 y 2021-09-12 10:45:04.028893
-12/09/2021 10:45:05 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:45:05 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
-12/09/2021 10:45:06 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
-12/09/2021 10:45:06 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:46.046489 y 2021-09-12 10:45:06.046489
-12/09/2021 10:45:07 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
-12/09/2021 10:45:08 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:45:08 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
-12/09/2021 10:45:09 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
-12/09/2021 10:45:09 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:49.069166 y 2021-09-12 10:45:09.069166
-12/09/2021 10:45:09 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:45:09 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:49.832427 y 2021-09-12 10:45:09.832427
-12/09/2021 10:45:10 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:45:11 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
-12/09/2021 10:45:12 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:45:12 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:45:14 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
-12/09/2021 10:45:14 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:44:54.871998 y 2021-09-12 10:45:14.871998
-12/09/2021 10:45:15 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:45:15 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:45:16 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
-12/09/2021 10:45:16 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:45:16 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:44:56.121276 y 2021-09-12 10:45:16.121276
-12/09/2021 10:45:17 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
-12/09/2021 10:45:18 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
-12/09/2021 10:45:18 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:44:58.072278 y 2021-09-12 10:45:18.072278
-12/09/2021 10:45:18 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
-12/09/2021 10:45:18 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
-12/09/2021 10:45:20 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
-12/09/2021 10:45:20 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:00.915743 y 2021-09-12 10:45:20.915743
-12/09/2021 10:45:21 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
-12/09/2021 10:45:23 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:45:23 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
-12/09/2021 10:45:24 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:45:24 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:04.120567 y 2021-09-12 10:45:24.120567
-12/09/2021 10:45:24 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
-12/09/2021 10:45:25 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:45:26 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:45:26 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:06.960631 y 2021-09-12 10:45:26.960631
-12/09/2021 10:45:27 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:45:28 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
-12/09/2021 10:45:29 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
-12/09/2021 10:45:29 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:09.151694 y 2021-09-12 10:45:29.151694
-12/09/2021 10:45:29 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:45:30 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:45:30 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
-12/09/2021 10:45:30 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:10.165480 y 2021-09-12 10:45:30.165480
-12/09/2021 10:45:31 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
-12/09/2021 10:45:31 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:45:31 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:11.998255 y 2021-09-12 10:45:31.998255
-12/09/2021 10:45:32 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
-12/09/2021 10:45:33 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
-12/09/2021 10:45:34 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
-12/09/2021 10:45:34 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:14.200017 y 2021-09-12 10:45:34.200017
-12/09/2021 10:45:35 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
-12/09/2021 10:45:36 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
-12/09/2021 10:45:38 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
-12/09/2021 10:45:39 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:45:39 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:19.053076 y 2021-09-12 10:45:39.053076
-12/09/2021 10:45:40 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
-12/09/2021 10:45:42 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
-12/09/2021 10:45:42 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
-12/09/2021 10:45:42 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:22.262245 y 2021-09-12 10:45:42.262245
-12/09/2021 10:45:45 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:45:46 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:45:46 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:26.226144 y 2021-09-12 10:45:46.226144
-12/09/2021 10:45:46 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
-12/09/2021 10:45:48 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
-12/09/2021 10:45:48 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
-12/09/2021 10:45:49 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
-12/09/2021 10:45:49 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
-12/09/2021 10:45:49 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:29.312117 y 2021-09-12 10:45:49.312117
-12/09/2021 10:45:52 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
-12/09/2021 10:45:54 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:45:54 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:34.096376 y 2021-09-12 10:45:54.096376
-12/09/2021 10:45:55 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:45:56 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
-12/09/2021 10:45:56 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:36.364851 y 2021-09-12 10:45:56.364851
-12/09/2021 10:45:57 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
-12/09/2021 10:45:58 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
-12/09/2021 10:45:59 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
-12/09/2021 10:45:59 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:39.132857 y 2021-09-12 10:45:59.132857
-12/09/2021 10:46:00 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
-12/09/2021 10:46:00 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
-12/09/2021 10:46:00 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:40.264387 y 2021-09-12 10:46:00.264387
-12/09/2021 10:46:01 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
-12/09/2021 10:46:02 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:46:05 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:46:06 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
-12/09/2021 10:46:06 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:46.315853 y 2021-09-12 10:46:06.315853
-12/09/2021 10:46:07 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
-12/09/2021 10:46:07 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
-12/09/2021 10:46:09 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
-12/09/2021 10:46:10 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:46:10 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
-12/09/2021 10:46:10 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:45:50.397881 y 2021-09-12 10:46:10.397881
-12/09/2021 10:46:11 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
-12/09/2021 10:46:11 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:51.354171 y 2021-09-12 10:46:11.354171
-12/09/2021 10:46:12 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-12/09/2021 10:46:12 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:45:52.164284 y 2021-09-12 10:46:12.164284
-12/09/2021 10:46:12 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
-12/09/2021 10:46:13 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
-12/09/2021 10:46:14 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
-12/09/2021 10:46:15 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
-12/09/2021 10:46:15 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:45:55.388192 y 2021-09-12 10:46:15.388192
-12/09/2021 10:46:15 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
-12/09/2021 10:46:17 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
-12/09/2021 10:46:17 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
-12/09/2021 10:46:27 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
-127.0.0.1 - - [12/Sep/2021 10:46:28] "GET /monitor/registropaciente HTTP/1.1" 200
+127.0.0.1 - - [12/Sep/2021 10:59:06] "GET / HTTP/1.1" 404 -
+12/09/2021 10:59:13 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:14 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 10:59:14 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 10:59:14 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+12/09/2021 10:59:16 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 10:59:17 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 10:59:17 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 10:59:17 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:58:57.131060 y 2021-09-12 10:59:17.131060
+12/09/2021 10:59:17 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 10:59:17 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:58:57.137903 y 2021-09-12 10:59:17.137903
+12/09/2021 10:59:18 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 10:59:18 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:58:58.142888 y 2021-09-12 10:59:18.142888
+12/09/2021 10:59:20 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+12/09/2021 10:59:20 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 10:59:22 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 10:59:22 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+12/09/2021 10:59:23 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 10:59:23 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:03.198002 y 2021-09-12 10:59:23.198002
+12/09/2021 10:59:23 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 10:59:24 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 10:59:24 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+12/09/2021 10:59:24 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:04.212242 y 2021-09-12 10:59:24.212242
+12/09/2021 10:59:25 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+12/09/2021 10:59:25 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:26 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 10:59:26 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:06.240066 y 2021-09-12 10:59:26.240066
+12/09/2021 10:59:27 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 10:59:27 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:07.245939 y 2021-09-12 10:59:27.245939
+12/09/2021 10:59:28 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+12/09/2021 10:59:29 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 10:59:30 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+12/09/2021 10:59:30 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 10:59:31 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+12/09/2021 10:59:31 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:11.290940 y 2021-09-12 10:59:31.290940
+12/09/2021 10:59:31 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+12/09/2021 10:59:31 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 10:59:31 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:11.293372 y 2021-09-12 10:59:31.293372
+12/09/2021 10:59:32 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+12/09/2021 10:59:32 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:32 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 10:59:34 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 10:59:35 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 400
+12/09/2021 10:59:35 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 10:59:35 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:15.333613 y 2021-09-12 10:59:35.333613
+12/09/2021 10:59:35 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 10:59:35 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:15.334019 y 2021-09-12 10:59:35.334019
+12/09/2021 10:59:36 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+12/09/2021 10:59:37 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:38 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+12/09/2021 10:59:39 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 10:59:39 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:19.379967 y 2021-09-12 10:59:39.379967
+12/09/2021 10:59:39 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+12/09/2021 10:59:39 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:19.380656 y 2021-09-12 10:59:39.380656
+12/09/2021 10:59:40 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 10:59:40 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 10:59:41 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 10:59:41 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 10:59:42 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+12/09/2021 10:59:42 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:22.420006 y 2021-09-12 10:59:42.420006
+12/09/2021 10:59:42 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 10:59:42 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:22.420621 y 2021-09-12 10:59:42.420621
+12/09/2021 10:59:43 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 10:59:43 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 10:59:44 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+12/09/2021 10:59:44 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+12/09/2021 10:59:44 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:24.441007 y 2021-09-12 10:59:44.441007
+12/09/2021 10:59:44 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 10:59:45 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 10:59:46 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:47 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+12/09/2021 10:59:47 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:27.480226 y 2021-09-12 10:59:47.480226
+12/09/2021 10:59:47 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 10:59:48 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 10:59:49 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
+12/09/2021 10:59:49 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:29.506180 y 2021-09-12 10:59:49.506180
+12/09/2021 10:59:49 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 10:59:51 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 10:59:51 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+12/09/2021 10:59:51 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:31.530890 y 2021-09-12 10:59:51.530890
+12/09/2021 10:59:53 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 10:59:56 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 10:59:56 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:36.591296 y 2021-09-12 10:59:56.591296
+12/09/2021 10:59:57 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
+12/09/2021 10:59:57 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 10:59:57 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:37.603596 y 2021-09-12 10:59:57.603596
+12/09/2021 10:59:57 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 10:59:58 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 10:59:59 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 10:59:59 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:00:00 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 11:00:00 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:40.634904 y 2021-09-12 11:00:00.634904
+12/09/2021 11:00:00 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:01 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 400
+12/09/2021 11:00:01 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+12/09/2021 11:00:01 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:41.649083 y 2021-09-12 11:00:01.649083
+12/09/2021 11:00:02 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+12/09/2021 11:00:02 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:42.662823 y 2021-09-12 11:00:02.662823
+12/09/2021 11:00:03 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+12/09/2021 11:00:03 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:04 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
+12/09/2021 11:00:04 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
+12/09/2021 11:00:05 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:00:05 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:00:05 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 10:59:45.699323 y 2021-09-12 11:00:05.699323
+12/09/2021 11:00:05 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 11:00:05 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:45.699627 y 2021-09-12 11:00:05.699627
+12/09/2021 11:00:06 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:00:06 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:46.709630 y 2021-09-12 11:00:06.709630
+12/09/2021 11:00:06 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:09 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 11:00:10 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:00:13 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:00:13 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 10:59:53.774470 y 2021-09-12 11:00:13.774470
+12/09/2021 11:00:16 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:00:18 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:00:18 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+12/09/2021 11:00:19 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:00:19 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 10:59:59.741726 y 2021-09-12 11:00:19.741726
+12/09/2021 11:00:19 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+12/09/2021 11:00:20 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 11:00:21 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+12/09/2021 11:00:22 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
+12/09/2021 11:00:22 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:00:22 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:02.841118 y 2021-09-12 11:00:22.841118
+12/09/2021 11:00:23 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:23 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:03.781297 y 2021-09-12 11:00:23.781297
+12/09/2021 11:00:24 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:00:26 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
+12/09/2021 11:00:27 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
+12/09/2021 11:00:28 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 11:00:29 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 11:00:29 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:09.829069 y 2021-09-12 11:00:29.829069
+12/09/2021 11:00:30 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:00:30 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:10.899170 y 2021-09-12 11:00:30.899170
+12/09/2021 11:00:31 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 11:00:31 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:00:32 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:33 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:00:33 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:00:13.780344 y 2021-09-12 11:00:33.780344
+12/09/2021 11:00:33 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
+12/09/2021 11:00:33 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+12/09/2021 11:00:33 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:13.921810 y 2021-09-12 11:00:33.921810
+12/09/2021 11:00:34 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+12/09/2021 11:00:34 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:35 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+12/09/2021 11:00:35 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 11:00:35 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:15.874511 y 2021-09-12 11:00:35.874511
+12/09/2021 11:00:36 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:00:39 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
+12/09/2021 11:00:40 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
+12/09/2021 11:00:42 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
+12/09/2021 11:00:42 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:22.928225 y 2021-09-12 11:00:42.928225
+12/09/2021 11:00:42 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 11:00:42 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:22.987870 y 2021-09-12 11:00:42.987870
+12/09/2021 11:00:43 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 11:00:44 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+12/09/2021 11:00:45 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:45 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:00:46 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:46 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:26.010997 y 2021-09-12 11:00:46.010997
+12/09/2021 11:00:46 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:00:46 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:00:26.808639 y 2021-09-12 11:00:46.808639
+12/09/2021 11:00:46 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+12/09/2021 11:00:46 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:26.957958 y 2021-09-12 11:00:46.957958
+12/09/2021 11:00:47 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:48 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
+12/09/2021 11:00:48 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:49 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 11:00:50 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+12/09/2021 11:00:51 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:00:51 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:31.047988 y 2021-09-12 11:00:51.047988
+12/09/2021 11:00:53 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+12/09/2021 11:00:53 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:33.005940 y 2021-09-12 11:00:53.005940
+12/09/2021 11:00:53 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 11:00:53 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:00:54 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 11:00:55 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:00:55 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:00:56 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:00:56 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:36.029728 y 2021-09-12 11:00:56.029728
+12/09/2021 11:00:57 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:00:57 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:37.094311 y 2021-09-12 11:00:57.094311
+12/09/2021 11:00:58 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:00:58 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:00:59 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+12/09/2021 11:01:00 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 11:01:00 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:40.059915 y 2021-09-12 11:01:00.059915
+12/09/2021 11:01:01 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 11:01:02 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+12/09/2021 11:01:02 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 11:01:03 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:01:03 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:00:43.084086 y 2021-09-12 11:01:03.084086
+12/09/2021 11:01:03 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:01:03 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:43.141683 y 2021-09-12 11:01:03.141683
+12/09/2021 11:01:04 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+12/09/2021 11:01:04 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:01:05 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:01:05 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:00:45.878624 y 2021-09-12 11:01:05.878624
+12/09/2021 11:01:07 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:01:08 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:01:08 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:48.178835 y 2021-09-12 11:01:08.178835
+12/09/2021 11:01:09 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+12/09/2021 11:01:10 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+12/09/2021 11:01:11 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 11:01:12 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:01:13 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
+12/09/2021 11:01:13 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:00:53.218404 y 2021-09-12 11:01:13.218404
+12/09/2021 11:01:17 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 401
+12/09/2021 11:01:20 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
+12/09/2021 11:01:20 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 11:01:23 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:01:23 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:03.293834 y 2021-09-12 11:01:23.293834
+12/09/2021 11:01:23 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:01:23 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:03.944609 y 2021-09-12 11:01:23.944609
+12/09/2021 11:01:24 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+12/09/2021 11:01:26 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:01:27 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+12/09/2021 11:01:27 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:07.201329 y 2021-09-12 11:01:27.201329
+12/09/2021 11:01:27 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+12/09/2021 11:01:28 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+12/09/2021 11:01:28 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:01:28 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+12/09/2021 11:01:29 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 11:01:29 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:01:29 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:09.345134 y 2021-09-12 11:01:29.345134
+12/09/2021 11:01:30 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+12/09/2021 11:01:30 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:10.997117 y 2021-09-12 11:01:30.997117
+12/09/2021 11:01:31 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+12/09/2021 11:01:31 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:11.231131 y 2021-09-12 11:01:31.231131
+12/09/2021 11:01:32 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+12/09/2021 11:01:33 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:01:35 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+12/09/2021 11:01:35 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:15.030877 y 2021-09-12 11:01:35.030877
+12/09/2021 11:01:35 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+12/09/2021 11:01:36 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 11:01:38 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
+12/09/2021 11:01:38 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:01:40 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 11:01:40 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:20.301044 y 2021-09-12 11:01:40.301044
+12/09/2021 11:01:40 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1: timeout
+12/09/2021 11:01:41 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 11:01:42 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+12/09/2021 11:01:42 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+12/09/2021 11:01:45 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+12/09/2021 11:01:45 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:25.340178 y 2021-09-12 11:01:45.340178
+12/09/2021 11:01:45 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:01:45 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:25.394525 y 2021-09-12 11:01:45.394525
+12/09/2021 11:01:47 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 11:01:47 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+12/09/2021 11:01:48 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:01:49 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+12/09/2021 11:01:49 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:29.064405 y 2021-09-12 11:01:49.064405
+12/09/2021 11:01:50 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+12/09/2021 11:01:51 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:01:51 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:31.438183 y 2021-09-12 11:01:51.438183
+12/09/2021 11:01:52 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+12/09/2021 11:01:52 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+12/09/2021 11:01:54 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+12/09/2021 11:01:54 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:34.102081 y 2021-09-12 11:01:54.102081
+12/09/2021 11:01:54 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:01:55 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:01:55 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:35.469835 y 2021-09-12 11:01:55.469835
+12/09/2021 11:01:57 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+12/09/2021 11:01:57 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:01:58 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+12/09/2021 11:01:58 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3: timeout
+12/09/2021 11:01:58 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+12/09/2021 11:01:59 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+12/09/2021 11:01:59 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:39.138250 y 2021-09-12 11:01:59.138250
+12/09/2021 11:01:59 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+12/09/2021 11:01:59 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:39.376698 y 2021-09-12 11:01:59.376698
+12/09/2021 11:02:01 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+12/09/2021 11:02:01 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 405
+12/09/2021 11:02:01 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:41.517699 y 2021-09-12 11:02:01.517699
+12/09/2021 11:02:02 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+12/09/2021 11:02:04 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+12/09/2021 11:02:05 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+12/09/2021 11:02:06 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 11:02:07 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+12/09/2021 11:02:08 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+12/09/2021 11:02:08 AM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 11:01:48.208501 y 2021-09-12 11:02:08.208501
+12/09/2021 11:02:09 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+12/09/2021 11:02:09 AM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+12/09/2021 11:02:09 AM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 11:01:49.454082 y 2021-09-12 11:02:09.454082
+12/09/2021 11:02:10 AM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+12/09/2021 11:02:10 AM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 11:01:50.588565 y 2021-09-12 11:02:10.588565
+12/09/2021 11:02:12 AM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+127.0.0.1 - - [12/Sep/2021 11:02:13] "GET /monitor/registropaciente HTTP/1.1" 200
