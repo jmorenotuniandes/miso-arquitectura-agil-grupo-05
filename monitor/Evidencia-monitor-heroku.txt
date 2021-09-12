@@ -1,0 +1,190 @@
+*********************************************************** Prueba 1 ***********************************************************
+2021-09-12T17:22:34.104003+00:00 app[web.1]: [2021-09-12 17:22:34 +0000] [4] [INFO] Starting gunicorn 20.1.0
+2021-09-12T17:22:34.104363+00:00 app[web.1]: [2021-09-12 17:22:34 +0000] [4] [INFO] Listening at: http://0.0.0.0:28014 (4)
+2021-09-12T17:22:34.104413+00:00 app[web.1]: [2021-09-12 17:22:34 +0000] [4] [INFO] Using worker: sync
+2021-09-12T17:22:34.108329+00:00 app[web.1]: [2021-09-12 17:22:34 +0000] [7] [INFO] Booting worker with pid: 7
+2021-09-12T17:22:34.158374+00:00 app[web.1]: [2021-09-12 17:22:34 +0000] [8] [INFO] Booting worker with pid: 8
+2021-09-12T17:22:34.512529+00:00 heroku[web.1]: State changed from starting to up
+2021-09-12T17:22:35.686394+00:00 heroku[heroku.1]: Starting process with command `ps:scale web=1`
+2021-09-12T17:22:35.801220+00:00 app[web.1]: 10.1.9.48 - - [12/Sep/2021:17:22:35 +0000] "GET / HTTP/1.1" 404 232 "https://dashboard.heroku.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+2021-09-12T17:22:35.802122+00:00 heroku[router]: at=info method=GET path="/" host=monitor-grupo5.herokuapp.com request_id=576d22f2-e5f5-4331-9b99-8d2e167ca5d7 fwd="190.26.231.129" dyno=web.1 connect=0ms service=4ms status=404 bytes=425 protocol=https
+2021-09-12T17:22:35.934275+00:00 app[web.1]: 10.1.9.48 - - [12/Sep/2021:17:22:35 +0000] "GET /favicon.ico HTTP/1.1" 404 232 "https://monitor-grupo5.herokuapp.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+2021-09-12T17:22:35.935372+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=monitor-grupo5.herokuapp.com request_id=42cd50df-3d06-4927-970d-74171127d22f fwd="190.26.231.129" dyno=web.1 connect=0ms service=1ms status=404 bytes=425 protocol=https
+2021-09-12T17:22:36.276601+00:00 heroku[heroku.1]: State changed from starting to up
+2021-09-12T17:22:37.005622+00:00 app[heroku.1]: bash: ps:scale: command not found
+2021-09-12T17:22:37.047374+00:00 heroku[heroku.1]: Process exited with status 127
+2021-09-12T17:22:37.108132+00:00 heroku[heroku.1]: State changed from up to crashed
+2021-09-12T17:23:16.112918+00:00 app[web.1]: 12/09/2021 05:23:16 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+2021-09-12T17:23:17.054531+00:00 app[web.1]: 12/09/2021 05:23:17 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+2021-09-12T17:23:18.102901+00:00 app[web.1]: 12/09/2021 05:23:18 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+2021-09-12T17:23:18.165558+00:00 app[web.1]: 12/09/2021 05:23:18 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:23:20.145820+00:00 app[web.1]: 12/09/2021 05:23:20 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+2021-09-12T17:23:21.162759+00:00 app[web.1]: 12/09/2021 05:23:21 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+2021-09-12T17:23:21.162836+00:00 app[web.1]: 12/09/2021 05:23:21 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:23:01.162752 y 2021-09-12 17:23:21.162752
+2021-09-12T17:23:22.158720+00:00 app[web.1]: 12/09/2021 05:23:22 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+2021-09-12T17:23:24.205962+00:00 app[web.1]: 12/09/2021 05:23:24 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 405
+2021-09-12T17:23:24.206278+00:00 app[web.1]: 12/09/2021 05:23:24 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:23:04.206158 y 2021-09-12 17:23:24.206158
+2021-09-12T17:23:24.228968+00:00 app[web.1]: 12/09/2021 05:23:24 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+2021-09-12T17:23:25.226004+00:00 app[web.1]: 12/09/2021 05:23:25 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:23:25.252435+00:00 app[web.1]: 12/09/2021 05:23:25 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+2021-09-12T17:23:26.274763+00:00 app[web.1]: 12/09/2021 05:23:26 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:23:26.274843+00:00 app[web.1]: 12/09/2021 05:23:26 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:23:06.274758 y 2021-09-12 17:23:26.274758
+2021-09-12T17:23:27.293478+00:00 app[web.1]: 12/09/2021 05:23:27 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+2021-09-12T17:23:28.285983+00:00 app[web.1]: 12/09/2021 05:23:28 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+2021-09-12T17:23:30.206884+00:00 app[web.1]: 12/09/2021 05:23:30 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2: timeout
+2021-09-12T17:23:30.207029+00:00 app[web.1]: 12/09/2021 05:23:30 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:23:10.206899 y 2021-09-12 17:23:30.206899
+2021-09-12T17:23:30.331985+00:00 app[web.1]: 12/09/2021 05:23:30 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
+2021-09-12T17:23:30.332063+00:00 app[web.1]: 12/09/2021 05:23:30 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:23:10.331983 y 2021-09-12 17:23:30.331983
+2021-09-12T17:23:32.370640+00:00 app[web.1]: 12/09/2021 05:23:32 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+2021-09-12T17:23:34.297685+00:00 app[web.1]: 12/09/2021 05:23:34 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+2021-09-12T17:23:34.447163+00:00 app[web.1]: 12/09/2021 05:23:34 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:23:35.447360+00:00 app[web.1]: 12/09/2021 05:23:35 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+2021-09-12T17:23:36.343229+00:00 app[web.1]: 12/09/2021 05:23:36 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 400
+2021-09-12T17:23:36.497377+00:00 app[web.1]: 12/09/2021 05:23:36 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 408
+2021-09-12T17:23:36.497476+00:00 app[web.1]: 12/09/2021 05:23:36 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:23:16.497373 y 2021-09-12 17:23:36.497373
+2021-09-12T17:23:37.363591+00:00 app[web.1]: 12/09/2021 05:23:37 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+2021-09-12T17:23:37.363682+00:00 app[web.1]: 12/09/2021 05:23:37 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:23:17.363590 y 2021-09-12 17:23:37.363590
+2021-09-12T17:23:37.517031+00:00 app[web.1]: 12/09/2021 05:23:37 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 403
+2021-09-12T17:23:38.384745+00:00 app[web.1]: 12/09/2021 05:23:38 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+2021-09-12T17:23:38.514955+00:00 app[web.1]: 12/09/2021 05:23:38 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+2021-09-12T17:23:38.515012+00:00 app[web.1]: 12/09/2021 05:23:38 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:23:18.514943 y 2021-09-12 17:23:38.514943
+2021-09-12T17:23:38.899451+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/monitor/registropaciente" host=monitor-grupo5.herokuapp.com request_id=ce76cab4-0fd8-489d-9a95-286c1e712928 fwd="190.26.231.129" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2021-09-12T17:23:39.240228+00:00 app[web.1]: [2021-09-12 17:23:39 +0000] [4] [CRITICAL] WORKER TIMEOUT (pid:8)
+2021-09-12T17:23:39.240727+00:00 app[web.1]: [2021-09-12 17:23:39 +0000] [8] [INFO] Worker exiting (pid: 8)
+2021-09-12T17:23:39.403072+00:00 app[web.1]: 12/09/2021 05:23:39 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+2021-09-12T17:23:39.536202+00:00 app[web.1]: 12/09/2021 05:23:39 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 406
+2021-09-12T17:23:40.243686+00:00 app[web.1]: [2021-09-12 17:23:40 +0000] [4] [WARNING] Worker with pid 8 was terminated due to signal 9
+2021-09-12T17:23:40.246664+00:00 app[web.1]: [2021-09-12 17:23:40 +0000] [12] [INFO] Booting worker with pid: 12
+2021-09-12T17:24:19.739588+00:00 app[web.1]: 12/09/2021 05:24:19 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+2021-09-12T17:24:19.740447+00:00 app[web.1]: 12/09/2021 05:24:19 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+2021-09-12T17:24:20.784091+00:00 app[web.1]: 12/09/2021 05:24:20 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:24:21.792873+00:00 app[web.1]: 12/09/2021 05:24:21 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+2021-09-12T17:24:21.809164+00:00 app[web.1]: 12/09/2021 05:24:21 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+2021-09-12T17:24:21.809249+00:00 app[web.1]: 12/09/2021 05:24:21 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:24:01.809158 y 2021-09-12 17:24:21.809158
+2021-09-12T17:24:21.811937+00:00 app[web.1]: 12/09/2021 05:24:21 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+2021-09-12T17:24:22.832962+00:00 app[web.1]: 12/09/2021 05:24:22 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:24:22.833051+00:00 app[web.1]: 12/09/2021 05:24:22 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:24:02.832960 y 2021-09-12 17:24:22.832960
+2021-09-12T17:24:23.836546+00:00 app[web.1]: 12/09/2021 05:24:23 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+2021-09-12T17:24:23.858373+00:00 app[web.1]: 12/09/2021 05:24:23 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 409
+2021-09-12T17:24:24.860064+00:00 app[web.1]: 12/09/2021 05:24:24 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 409
+2021-09-12T17:24:24.860158+00:00 app[web.1]: 12/09/2021 05:24:24 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:24:04.860075 y 2021-09-12 17:24:24.860075
+2021-09-12T17:24:24.875783+00:00 app[web.1]: 12/09/2021 05:24:24 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:24:25.885394+00:00 app[web.1]: 12/09/2021 05:24:25 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+2021-09-12T17:24:25.906317+00:00 app[web.1]: 12/09/2021 05:24:25 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+2021-09-12T17:24:26.908161+00:00 app[web.1]: 12/09/2021 05:24:26 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+2021-09-12T17:24:27.928835+00:00 app[web.1]: 12/09/2021 05:24:27 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+2021-09-12T17:24:27.928921+00:00 app[web.1]: 12/09/2021 05:24:27 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:24:07.928835 y 2021-09-12 17:24:27.928835
+2021-09-12T17:24:27.942203+00:00 app[web.1]: 12/09/2021 05:24:27 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 404
+2021-09-12T17:24:28.978315+00:00 app[web.1]: 12/09/2021 05:24:28 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
+2021-09-12T17:24:28.978411+00:00 app[web.1]: 12/09/2021 05:24:28 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:24:08.978312 y 2021-09-12 17:24:28.978312
+2021-09-12T17:24:29.987967+00:00 app[web.1]: 12/09/2021 05:24:29 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:24:29.988077+00:00 app[web.1]: 12/09/2021 05:24:29 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:24:09.988007 y 2021-09-12 17:24:29.988007
+2021-09-12T17:24:31.008897+00:00 app[web.1]: 12/09/2021 05:24:31 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+2021-09-12T17:24:31.020475+00:00 app[web.1]: 12/09/2021 05:24:31 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+2021-09-12T17:24:32.027957+00:00 app[web.1]: 12/09/2021 05:24:32 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:24:33.054739+00:00 app[web.1]: 12/09/2021 05:24:33 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:24:33.054973+00:00 app[web.1]: 12/09/2021 05:24:33 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:24:13.054862 y 2021-09-12 17:24:33.054862
+2021-09-12T17:24:34.056327+00:00 app[web.1]: 12/09/2021 05:24:34 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:24:34.094128+00:00 app[web.1]: 12/09/2021 05:24:34 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:24:36.106841+00:00 app[web.1]: 12/09/2021 05:24:36 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+2021-09-12T17:24:36.138204+00:00 app[web.1]: 12/09/2021 05:24:36 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+2021-09-12T17:24:36.138257+00:00 app[web.1]: 12/09/2021 05:24:36 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:24:16.138193 y 2021-09-12 17:24:36.138193
+2021-09-12T17:24:37.160444+00:00 app[web.1]: 12/09/2021 05:24:37 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+2021-09-12T17:24:38.182664+00:00 app[web.1]: 12/09/2021 05:24:38 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+2021-09-12T17:24:39.190723+00:00 app[web.1]: 12/09/2021 05:24:39 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:24:40.200610+00:00 app[web.1]: 12/09/2021 05:24:40 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+2021-09-12T17:24:40.200672+00:00 app[web.1]: 12/09/2021 05:24:40 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:24:20.200602 y 2021-09-12 17:24:40.200602
+2021-09-12T17:24:40.226472+00:00 app[web.1]: 12/09/2021 05:24:40 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 405
+2021-09-12T17:24:40.226526+00:00 app[web.1]: 12/09/2021 05:24:40 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:24:20.226466 y 2021-09-12 17:24:40.226466
+2021-09-12T17:24:41.254072+00:00 app[web.1]: 12/09/2021 05:24:41 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:24:41.258349+00:00 app[web.1]: 12/09/2021 05:24:41 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+2021-09-12T17:24:41.259809+00:00 app[web.1]: 12/09/2021 05:24:41 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:24:42.276158+00:00 app[web.1]: 12/09/2021 05:24:42 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+2021-09-12T17:24:43.294875+00:00 app[web.1]: 12/09/2021 05:24:43 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:24:43.294938+00:00 app[web.1]: 12/09/2021 05:24:43 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:24:23.294867 y 2021-09-12 17:24:43.294867
+2021-09-12T17:24:43.308600+00:00 app[web.1]: 12/09/2021 05:24:43 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:24:43.308689+00:00 app[web.1]: 12/09/2021 05:24:43 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:24:23.308598 y 2021-09-12 17:24:43.308598
+2021-09-12T17:24:44.315405+00:00 app[web.1]: 12/09/2021 05:24:44 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 401
+2021-09-12T17:24:44.328888+00:00 app[web.1]: 12/09/2021 05:24:44 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+2021-09-12T17:24:44.330560+00:00 app[web.1]: 12/09/2021 05:24:44 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:24:46.361640+00:00 app[web.1]: 12/09/2021 05:24:46 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 505
+2021-09-12T17:24:46.369959+00:00 app[web.1]: 12/09/2021 05:24:46 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:24:47.393082+00:00 app[web.1]: 12/09/2021 05:24:47 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:24:47.393480+00:00 app[web.1]: 12/09/2021 05:24:47 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:24:27.393346 y 2021-09-12 17:24:47.393346
+2021-09-12T17:24:48.421209+00:00 app[web.1]: 12/09/2021 05:24:48 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:24:48.421288+00:00 app[web.1]: 12/09/2021 05:24:48 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:24:28.421197 y 2021-09-12 17:24:48.421197
+2021-09-12T17:24:49.701161+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/monitor/registropaciente" host=monitor-grupo5.herokuapp.com request_id=e052fd4a-b907-4b0f-a58b-5b467e6c5f85 fwd="190.26.231.129" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2021-09-12T17:24:50.404766+00:00 app[web.1]: [2021-09-12 17:24:50 +0000] [4] [CRITICAL] WORKER TIMEOUT (pid:12)
+2021-09-12T17:24:50.405259+00:00 app[web.1]: [2021-09-12 17:24:50 +0000] [12] [INFO] Worker exiting (pid: 12)
+2021-09-12T17:24:51.407574+00:00 app[web.1]: [2021-09-12 17:24:51 +0000] [4] [WARNING] Worker with pid 12 was terminated due to signal 9
+2021-09-12T17:24:51.410221+00:00 app[web.1]: [2021-09-12 17:24:51 +0000] [16] [INFO] Booting worker with pid: 16
+*********************************************************** Prueba 2 ***********************************************************
+2021-09-12T17:31:55.713889+00:00 app[web.1]: 12/09/2021 05:31:55 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:31:55.716087+00:00 app[web.1]: 12/09/2021 05:31:55 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 400
+2021-09-12T17:31:56.740182+00:00 app[web.1]: 12/09/2021 05:31:56 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:31:56.745354+00:00 app[web.1]: 12/09/2021 05:31:56 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 408
+2021-09-12T17:31:56.746622+00:00 app[web.1]: 12/09/2021 05:31:56 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+2021-09-12T17:31:57.768993+00:00 app[web.1]: 12/09/2021 05:31:57 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+2021-09-12T17:31:57.771470+00:00 app[web.1]: 12/09/2021 05:31:57 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 403
+2021-09-12T17:31:57.771630+00:00 app[web.1]: 12/09/2021 05:31:57 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:31:37.771480 y 2021-09-12 17:31:57.771480
+2021-09-12T17:31:58.783833+00:00 app[web.1]: 12/09/2021 05:31:58 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:31:58.783918+00:00 app[web.1]: 12/09/2021 05:31:58 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:31:38.783822 y 2021-09-12 17:31:58.783822
+2021-09-12T17:31:59.806099+00:00 app[web.1]: 12/09/2021 05:31:59 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 504
+2021-09-12T17:31:59.816403+00:00 app[web.1]: 12/09/2021 05:31:59 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+2021-09-12T17:31:59.816471+00:00 app[web.1]: 12/09/2021 05:31:59 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:31:39.816406 y 2021-09-12 17:31:59.816406
+2021-09-12T17:32:00.826940+00:00 app[web.1]: 12/09/2021 05:32:00 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:32:00.838203+00:00 app[web.1]: 12/09/2021 05:32:00 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 400
+2021-09-12T17:32:04.917336+00:00 app[web.1]: 12/09/2021 05:32:04 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:32:04.917407+00:00 app[web.1]: 12/09/2021 05:32:04 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:31:44.917328 y 2021-09-12 17:32:04.917328
+2021-09-12T17:32:04.926764+00:00 app[web.1]: 12/09/2021 05:32:04 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:32:04.929081+00:00 app[web.1]: 12/09/2021 05:32:04 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:32:05.942598+00:00 app[web.1]: 12/09/2021 05:32:05 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 500
+2021-09-12T17:32:05.953536+00:00 app[web.1]: 12/09/2021 05:32:05 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 505
+2021-09-12T17:32:05.954425+00:00 app[web.1]: 12/09/2021 05:32:05 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:31:45.954337 y 2021-09-12 17:32:05.954337
+2021-09-12T17:32:06.994520+00:00 app[web.1]: 12/09/2021 05:32:06 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 504
+2021-09-12T17:32:06.998484+00:00 app[web.1]: 12/09/2021 05:32:06 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 401
+2021-09-12T17:32:07.992342+00:00 app[web.1]: 12/09/2021 05:32:07 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:32:08.017259+00:00 app[web.1]: 12/09/2021 05:32:08 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:32:08.017350+00:00 app[web.1]: 12/09/2021 05:32:08 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:31:48.017249 y 2021-09-12 17:32:08.017249
+2021-09-12T17:32:09.010375+00:00 app[web.1]: 12/09/2021 05:32:09 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:32:09.010435+00:00 app[web.1]: 12/09/2021 05:32:09 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:31:49.010365 y 2021-09-12 17:32:09.010365
+2021-09-12T17:32:09.054047+00:00 app[web.1]: 12/09/2021 05:32:09 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 500
+2021-09-12T17:32:10.068352+00:00 app[web.1]: 12/09/2021 05:32:10 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:32:11.058556+00:00 app[web.1]: 12/09/2021 05:32:11 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:32:11.087827+00:00 app[web.1]: 12/09/2021 05:32:11 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+2021-09-12T17:32:11.094749+00:00 app[web.1]: 12/09/2021 05:32:11 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+2021-09-12T17:32:11.094819+00:00 app[web.1]: 12/09/2021 05:32:11 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:31:51.094746 y 2021-09-12 17:32:11.094746
+2021-09-12T17:32:12.108937+00:00 app[web.1]: 12/09/2021 05:32:12 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+2021-09-12T17:32:12.109054+00:00 app[web.1]: 12/09/2021 05:32:12 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:31:52.108937 y 2021-09-12 17:32:12.108937
+2021-09-12T17:32:13.101210+00:00 app[web.1]: 12/09/2021 05:32:13 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+2021-09-12T17:32:13.130514+00:00 app[web.1]: 12/09/2021 05:32:13 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:32:14.142853+00:00 app[web.1]: 12/09/2021 05:32:14 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+2021-09-12T17:32:15.142496+00:00 app[web.1]: 12/09/2021 05:32:15 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 400
+2021-09-12T17:32:15.142555+00:00 app[web.1]: 12/09/2021 05:32:15 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:31:55.142469 y 2021-09-12 17:32:15.142469
+2021-09-12T17:32:15.163319+00:00 app[web.1]: 12/09/2021 05:32:15 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 504
+2021-09-12T17:32:15.178758+00:00 app[web.1]: 12/09/2021 05:32:15 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+2021-09-12T17:32:16.185033+00:00 app[web.1]: 12/09/2021 05:32:16 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 406
+2021-09-12T17:32:16.185112+00:00 app[web.1]: 12/09/2021 05:32:16 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:31:56.185025 y 2021-09-12 17:32:16.185025
+2021-09-12T17:32:19.212869+00:00 app[web.1]: 12/09/2021 05:32:19 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 505
+2021-09-12T17:32:19.268641+00:00 app[web.1]: 12/09/2021 05:32:19 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 500
+2021-09-12T17:32:19.268702+00:00 app[web.1]: 12/09/2021 05:32:19 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:31:59.268628 y 2021-09-12 17:32:19.268628
+2021-09-12T17:32:20.236380+00:00 app[web.1]: 12/09/2021 05:32:20 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+2021-09-12T17:32:21.257504+00:00 app[web.1]: 12/09/2021 05:32:21 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 409
+2021-09-12T17:32:21.257655+00:00 app[web.1]: 12/09/2021 05:32:21 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:32:01.257550 y 2021-09-12 17:32:21.257550
+2021-09-12T17:32:21.293930+00:00 app[web.1]: 12/09/2021 05:32:21 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 404
+2021-09-12T17:32:21.326002+00:00 app[web.1]: 12/09/2021 05:32:21 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 503
+2021-09-12T17:32:22.324101+00:00 app[web.1]: 12/09/2021 05:32:22 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 503
+2021-09-12T17:32:22.347387+00:00 app[web.1]: 12/09/2021 05:32:22 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 408
+2021-09-12T17:32:23.296614+00:00 app[web.1]: 12/09/2021 05:32:23 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:32:23.369782+00:00 app[web.1]: 12/09/2021 05:32:23 PM - MonitorMicroservicio3 - DEBUG - Error en microservicio #3 Código respuesta: 404
+2021-09-12T17:32:23.369862+00:00 app[web.1]: 12/09/2021 05:32:23 PM - MonitorMicroservicio3 - DEBUG - Microservicio #3 en estado de fallo. Rango errores entre 2021-09-12 17:32:03.369777 y 2021-09-12 17:32:23.369777
+2021-09-12T17:32:24.319767+00:00 app[web.1]: 12/09/2021 05:32:24 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 503
+2021-09-12T17:32:25.340311+00:00 app[web.1]: 12/09/2021 05:32:25 PM - MonitorMicroservicio1 - DEBUG - Error en microservicio #1 Código respuesta: 406
+2021-09-12T17:32:25.340382+00:00 app[web.1]: 12/09/2021 05:32:25 PM - MonitorMicroservicio1 - DEBUG - Microservicio #1 en estado de fallo. Rango errores entre 2021-09-12 17:32:05.340302 y 2021-09-12 17:32:25.340302
+2021-09-12T17:32:25.386694+00:00 app[web.1]: 12/09/2021 05:32:25 PM - MonitorMicroservicio2 - DEBUG - Error en microservicio #2 Código respuesta: 403
+2021-09-12T17:32:25.386776+00:00 app[web.1]: 12/09/2021 05:32:25 PM - MonitorMicroservicio2 - DEBUG - Microservicio #2 en estado de fallo. Rango errores entre 2021-09-12 17:32:05.386691 y 2021-09-12 17:32:25.386691
+2021-09-12T17:32:25.677335+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/monitor/registropaciente" host=monitor-grupo5.herokuapp.com request_id=c18f6410-eb7d-4dc7-98e3-f3dcc011d3d0 fwd="190.26.231.129" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2021-09-12T17:32:25.932498+00:00 app[web.1]: [2021-09-12 17:32:25 +0000] [4] [CRITICAL] WORKER TIMEOUT (pid:7)
+2021-09-12T17:32:25.932947+00:00 app[web.1]: [2021-09-12 17:32:25 +0000] [7] [INFO] Worker exiting (pid: 7)
+2021-09-12T17:32:26.935713+00:00 app[web.1]: [2021-09-12 17:32:26 +0000] [4] [WARNING] Worker with pid 7 was terminated due to signal 9
+2021-09-12T17:32:26.938614+00:00 app[web.1]: [2021-09-12 17:32:26 +0000] [20] [INFO] Booting worker with pid: 20

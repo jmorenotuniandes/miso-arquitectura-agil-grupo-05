@@ -1,0 +1,347 @@
+*********************************************************** Prueba 1 ***********************************************************
+2021-09-12T17:23:16.106752+00:00 app[web.1]: 12/09/2021 05:23:16 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
+2021-09-12T17:23:16.109935+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=d7653775-b1ec-4617-9b2f-9daebdaba7fd fwd="35.172.217.89" dyno=web.1 connect=0ms service=6ms status=505 bytes=226 protocol=https
+2021-09-12T17:23:16.113675+00:00 app[web.1]: 10.1.94.238 - - [12/Sep/2021:17:23:16 +0000] "GET /registropaciente/ping HTTP/1.1" 505 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:17.138699+00:00 app[web.1]: 12/09/2021 05:23:17 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:17.139097+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=b61c791d-4925-4d40-8346-89332e2e8258 fwd="35.172.217.89" dyno=web.1 connect=7ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:17.139666+00:00 app[web.1]: 10.1.15.253 - - [12/Sep/2021:17:23:17 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:18.158471+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=fb0e3a9e-69e6-46f9-b1ed-36e5de15cb57 fwd="35.172.217.89" dyno=web.1 connect=0ms service=3ms status=500 bytes=244 protocol=https
+2021-09-12T17:23:18.162635+00:00 app[web.1]: [2021-09-12 17:23:18 +0000] [7] [ERROR] Error handling request /registropaciente/ping
+2021-09-12T17:23:18.162659+00:00 app[web.1]: Traceback (most recent call last):
+2021-09-12T17:23:18.162660+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/gunicorn/workers/sync.py", line 136, in handle
+2021-09-12T17:23:18.162660+00:00 app[web.1]: self.handle_request(listener, req, client, addr)
+2021-09-12T17:23:18.162661+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+2021-09-12T17:23:18.162661+00:00 app[web.1]: respiter = self.wsgi(environ, resp.start_response)
+2021-09-12T17:23:18.162661+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+2021-09-12T17:23:18.162662+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2021-09-12T17:23:18.162662+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+2021-09-12T17:23:18.162662+00:00 app[web.1]: response = self.handle_exception(e)
+2021-09-12T17:23:18.162662+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 271, in error_router
+2021-09-12T17:23:18.162663+00:00 app[web.1]: return original_handler(e)
+2021-09-12T17:23:18.162663+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+2021-09-12T17:23:18.162664+00:00 app[web.1]: return cors_after_request(app.make_response(f(*args, **kwargs)))
+2021-09-12T17:23:18.162665+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+2021-09-12T17:23:18.162665+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2021-09-12T17:23:18.162665+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/_compat.py", line 38, in reraise
+2021-09-12T17:23:18.162665+00:00 app[web.1]: raise value.with_traceback(tb)
+2021-09-12T17:23:18.162665+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+2021-09-12T17:23:18.162666+00:00 app[web.1]: response = self.full_dispatch_request()
+2021-09-12T17:23:18.162666+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+2021-09-12T17:23:18.162666+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2021-09-12T17:23:18.162666+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 271, in error_router
+2021-09-12T17:23:18.162666+00:00 app[web.1]: return original_handler(e)
+2021-09-12T17:23:18.162667+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+2021-09-12T17:23:18.162667+00:00 app[web.1]: return cors_after_request(app.make_response(f(*args, **kwargs)))
+2021-09-12T17:23:18.162667+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+2021-09-12T17:23:18.162667+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2021-09-12T17:23:18.162667+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/_compat.py", line 38, in reraise
+2021-09-12T17:23:18.162667+00:00 app[web.1]: raise value.with_traceback(tb)
+2021-09-12T17:23:18.162668+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+2021-09-12T17:23:18.162668+00:00 app[web.1]: rv = self.dispatch_request()
+2021-09-12T17:23:18.162668+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+2021-09-12T17:23:18.162668+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2021-09-12T17:23:18.162668+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 467, in wrapper
+2021-09-12T17:23:18.162668+00:00 app[web.1]: resp = resource(*args, **kwargs)
+2021-09-12T17:23:18.162669+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/views.py", line 89, in view
+2021-09-12T17:23:18.162669+00:00 app[web.1]: return self.dispatch_request(*args, **kwargs)
+2021-09-12T17:23:18.162670+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+2021-09-12T17:23:18.162670+00:00 app[web.1]: resp = meth(*args, **kwargs)
+2021-09-12T17:23:18.162670+00:00 app[web.1]: File "/app/flaskr/vistas/vistas.py", line 34, in get
+2021-09-12T17:23:18.162670+00:00 app[web.1]: errorCode = erroCodes[responseIndex]
+2021-09-12T17:23:18.162670+00:00 app[web.1]: IndexError: list index out of range
+2021-09-12T17:23:18.162814+00:00 app[web.1]: 10.1.42.226 - - [12/Sep/2021:17:23:18 +0000] "GET /registropaciente/ping HTTP/1.1" 500 0 "-" "-"
+2021-09-12T17:23:19.180504+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=a862ab08-5525-40f9-bcbe-0e0477cc5520 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:19.180708+00:00 app[web.1]: 12/09/2021 05:23:19 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:19.180721+00:00 app[web.1]: 12/09/2021 05:23:19 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:19.181379+00:00 app[web.1]: 10.1.41.13 - - [12/Sep/2021:17:23:19 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:31.232511+00:00 app[web.1]: 12/09/2021 05:23:31 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:31.233918+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=f2c10e1e-a159-4ed0-a35b-18b701110dad fwd="35.172.217.89" dyno=web.1 connect=0ms service=4ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:31.234731+00:00 app[web.1]: 10.1.9.213 - - [12/Sep/2021:17:23:31 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:32.252407+00:00 app[web.1]: 12/09/2021 05:23:32 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:32.252413+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=e7715916-a604-439b-97fe-6f53f4964708 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:32.253058+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:23:32 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:33.271439+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=9f146a33-eda1-48c6-a2be-a89f40389f69 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:33.273322+00:00 app[web.1]: 12/09/2021 05:23:33 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:33.274004+00:00 app[web.1]: 10.1.86.117 - - [12/Sep/2021:17:23:33 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:34.294239+00:00 app[web.1]: 12/09/2021 05:23:34 PM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+2021-09-12T17:23:34.294800+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=ee0add20-d0c9-4401-8806-706c4004f67e fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=409 bytes=208 protocol=https
+2021-09-12T17:23:34.295377+00:00 app[web.1]: 10.1.9.213 - - [12/Sep/2021:17:23:34 +0000] "GET /registropaciente/ping HTTP/1.1" 409 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:35.315433+00:00 app[web.1]: 12/09/2021 05:23:35 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:23:35.316247+00:00 app[web.1]: 10.1.9.48 - - [12/Sep/2021:17:23:35 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:23:35.316856+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=2f829738-90cf-4db0-be2c-ca4af3704721 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:23:36.340174+00:00 app[web.1]: 12/09/2021 05:23:36 PM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+2021-09-12T17:23:36.340815+00:00 app[web.1]: 10.1.6.108 - - [12/Sep/2021:17:23:36 +0000] "GET /registropaciente/ping HTTP/1.1" 400 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:36.366668+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=e96830c8-393a-48c5-85d3-7f7ada9d5c23 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=400 bytes=211 protocol=https
+2021-09-12T17:23:37.356514+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=6b33e004-68e2-4d54-806e-34c37c9f9fd9 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=403 bytes=209 protocol=https
+2021-09-12T17:23:37.360490+00:00 app[web.1]: 12/09/2021 05:23:37 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:23:37.361291+00:00 app[web.1]: 10.1.42.226 - - [12/Sep/2021:17:23:37 +0000] "GET /registropaciente/ping HTTP/1.1" 403 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:38.380446+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=b0c4112d-2c87-4ae7-8a81-bea45a8580b1 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=406 bytes=214 protocol=https
+2021-09-12T17:23:38.381508+00:00 app[web.1]: 12/09/2021 05:23:38 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+2021-09-12T17:23:38.382143+00:00 app[web.1]: 10.1.0.201 - - [12/Sep/2021:17:23:38 +0000] "GET /registropaciente/ping HTTP/1.1" 406 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:39.399443+00:00 app[web.1]: 12/09/2021 05:23:39 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+2021-09-12T17:23:39.400128+00:00 app[web.1]: 10.1.46.245 - - [12/Sep/2021:17:23:39 +0000] "GET /registropaciente/ping HTTP/1.1" 404 25 "-" "python-requests/2.22.0"
+2021-09-12T17:23:39.400437+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=81606642-2bd9-4bbb-b539-d18462c45727 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=404 bytes=209 protocol=https
+2021-09-12T17:23:40.226761+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=2b66073b-2cf8-4134-ad85-50b4e914c4a5 fwd="35.172.217.89" dyno=web.1 connect=0ms service=20020ms status=200 bytes=205 protocol=https
+2021-09-12T17:23:40.227175+00:00 app[web.1]: 12/09/2021 05:23:40 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+2021-09-12T17:23:40.227201+00:00 app[web.1]: 12/09/2021 05:23:40 PM - LlamadaMicroservicio - DEBUG - 200 Tiempo de respuesta largo
+2021-09-12T17:23:40.227983+00:00 app[web.1]: 10.1.85.17 - - [12/Sep/2021:17:23:40 +0000] "GET /registropaciente/ping HTTP/1.1" 200 28 "-" "python-requests/2.22.0"
+2021-09-12T17:24:19.736550+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c8af2adf-e328-4592-9765-d01eb59609d0 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=404 bytes=209 protocol=https
+2021-09-12T17:24:19.736611+00:00 app[web.1]: 12/09/2021 05:24:19 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+2021-09-12T17:24:19.737249+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:24:19 +0000] "GET /registropaciente/ping HTTP/1.1" 404 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:20.780138+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=cbe9d8f1-c394-43ea-834b-9ba2529a9a3d fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=500 bytes=221 protocol=https
+2021-09-12T17:24:20.780429+00:00 app[web.1]: 12/09/2021 05:24:20 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:24:20.780443+00:00 app[web.1]: 12/09/2021 05:24:20 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:24:20.781065+00:00 app[web.1]: 10.1.41.13 - - [12/Sep/2021:17:24:20 +0000] "GET /registropaciente/ping HTTP/1.1" 500 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:21.805844+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=4af47b89-bc07-47af-b47b-2f2254f0d839 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=408 bytes=215 protocol=https
+2021-09-12T17:24:21.806122+00:00 app[web.1]: 12/09/2021 05:24:21 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+2021-09-12T17:24:21.806783+00:00 app[web.1]: 10.1.93.69 - - [12/Sep/2021:17:24:21 +0000] "GET /registropaciente/ping HTTP/1.1" 408 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:22.836635+00:00 app[web.1]: 12/09/2021 05:24:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:22.836654+00:00 app[web.1]: 12/09/2021 05:24:22 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:22.836845+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=ccb96bfa-4777-4e1c-a077-19347ba04e4f fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:22.837297+00:00 app[web.1]: 10.1.15.253 - - [12/Sep/2021:17:24:22 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:23.853619+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c0d00f93-94b8-4b33-9294-b849d75bd2dd fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=409 bytes=208 protocol=https
+2021-09-12T17:24:23.854960+00:00 app[web.1]: 12/09/2021 05:24:23 PM - LlamadaMicroservicio - DEBUG - 409 Error en la aplicacion
+2021-09-12T17:24:23.855599+00:00 app[web.1]: 10.1.27.12 - - [12/Sep/2021:17:24:23 +0000] "GET /registropaciente/ping HTTP/1.1" 409 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:24.878659+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=172a13fb-2290-4112-8009-1e197657c28a fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:24.880126+00:00 app[web.1]: 12/09/2021 05:24:24 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:24.880161+00:00 app[web.1]: 12/09/2021 05:24:24 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:24.880826+00:00 app[web.1]: 10.1.27.12 - - [12/Sep/2021:17:24:24 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:25.902573+00:00 app[web.1]: 12/09/2021 05:24:25 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+2021-09-12T17:24:25.903407+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:24:25 +0000] "GET /registropaciente/ping HTTP/1.1" 401 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:25.903693+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=f28e563a-c572-4de3-95e0-bcfda7ecbc6c fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=401 bytes=212 protocol=https
+2021-09-12T17:24:26.925670+00:00 app[web.1]: 12/09/2021 05:24:26 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:26.925691+00:00 app[web.1]: 12/09/2021 05:24:26 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:26.925903+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=6c57adf0-5927-4bc2-8ddd-6e06ad6d1e3c fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:26.926383+00:00 app[web.1]: 10.1.28.122 - - [12/Sep/2021:17:24:26 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:27.931736+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=11cc708e-d275-4bdf-acda-42dafffa9769 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:27.945690+00:00 app[web.1]: 12/09/2021 05:24:27 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:27.946340+00:00 app[web.1]: 10.1.33.133 - - [12/Sep/2021:17:24:27 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:28.972555+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=fb34d684-0c00-4b2f-a49a-2f10cb15ce5b fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=405 bytes=218 protocol=https
+2021-09-12T17:24:28.974569+00:00 app[web.1]: 12/09/2021 05:24:28 PM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+2021-09-12T17:24:28.975434+00:00 app[web.1]: 10.1.24.26 - - [12/Sep/2021:17:24:28 +0000] "GET /registropaciente/ping HTTP/1.1" 405 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:29.998552+00:00 app[web.1]: 12/09/2021 05:24:29 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:29.998586+00:00 app[web.1]: 12/09/2021 05:24:29 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:29.998678+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=24cbb909-e76a-4520-824f-ab53ebc73f61 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:29.999259+00:00 app[web.1]: 10.1.94.238 - - [12/Sep/2021:17:24:29 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:31.016235+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=76d33905-4a8a-4485-9e81-983d70b80bb8 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=408 bytes=215 protocol=https
+2021-09-12T17:24:31.017453+00:00 app[web.1]: 12/09/2021 05:24:31 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+2021-09-12T17:24:31.017466+00:00 app[web.1]: 12/09/2021 05:24:31 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+2021-09-12T17:24:31.018078+00:00 app[web.1]: 10.1.22.128 - - [12/Sep/2021:17:24:31 +0000] "GET /registropaciente/ping HTTP/1.1" 408 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:32.032688+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=ebb9134e-a68d-4e51-b1c9-c4e9618d26e7 fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:32.037234+00:00 app[web.1]: 12/09/2021 05:24:32 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:32.038194+00:00 app[web.1]: 10.1.24.30 - - [12/Sep/2021:17:24:32 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:33.062939+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=80d71169-7d4e-4943-8976-c2db96f1a048 fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:33.063976+00:00 app[web.1]: 12/09/2021 05:24:33 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:33.065251+00:00 app[web.1]: 10.1.27.12 - - [12/Sep/2021:17:24:33 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:34.086786+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=62be51b5-15f6-4165-97aa-7b313a62b680 fwd="35.172.217.89" dyno=web.1 connect=0ms service=3ms status=500 bytes=221 protocol=https
+2021-09-12T17:24:34.089514+00:00 app[web.1]: 12/09/2021 05:24:34 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:24:34.091709+00:00 app[web.1]: 10.1.42.226 - - [12/Sep/2021:17:24:34 +0000] "GET /registropaciente/ping HTTP/1.1" 500 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:35.113181+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=25a8514b-6716-404a-abf3-79dd0e385bfb fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:35.113278+00:00 app[web.1]: 12/09/2021 05:24:35 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:35.114093+00:00 app[web.1]: 10.1.41.13 - - [12/Sep/2021:17:24:35 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:36.134833+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=655af7e9-588e-4765-bf58-b2f465441f5d fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=408 bytes=215 protocol=https
+2021-09-12T17:24:36.134849+00:00 app[web.1]: 12/09/2021 05:24:36 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+2021-09-12T17:24:36.135805+00:00 app[web.1]: 10.1.93.69 - - [12/Sep/2021:17:24:36 +0000] "GET /registropaciente/ping HTTP/1.1" 408 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:37.151372+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=19692fd0-5634-4239-b574-0ae59257d410 fwd="35.172.217.89" dyno=web.1 connect=0ms service=3ms status=504 bytes=215 protocol=https
+2021-09-12T17:24:37.156690+00:00 app[web.1]: 12/09/2021 05:24:37 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+2021-09-12T17:24:37.157137+00:00 app[web.1]: 12/09/2021 05:24:37 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+2021-09-12T17:24:37.158424+00:00 app[web.1]: 10.1.32.193 - - [12/Sep/2021:17:24:37 +0000] "GET /registropaciente/ping HTTP/1.1" 504 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:38.178536+00:00 app[web.1]: 12/09/2021 05:24:38 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+2021-09-12T17:24:38.178613+00:00 app[web.1]: 12/09/2021 05:24:38 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+2021-09-12T17:24:38.178987+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=7331ded3-d8c5-4b7d-8c20-e0410e7c786d fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=404 bytes=209 protocol=https
+2021-09-12T17:24:38.179630+00:00 app[web.1]: 10.1.18.53 - - [12/Sep/2021:17:24:38 +0000] "GET /registropaciente/ping HTTP/1.1" 404 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:39.204031+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=149d682f-9fab-4d64-91a2-a4ca4b0de206 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:39.204312+00:00 app[web.1]: 12/09/2021 05:24:39 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:39.204322+00:00 app[web.1]: 12/09/2021 05:24:39 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:39.204935+00:00 app[web.1]: 10.1.41.13 - - [12/Sep/2021:17:24:39 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:40.221974+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=5f037b57-ed4d-47dc-9e10-16f4d7c83322 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=405 bytes=218 protocol=https
+2021-09-12T17:24:40.223939+00:00 app[web.1]: 12/09/2021 05:24:40 PM - LlamadaMicroservicio - DEBUG - 405 Error en la aplicacion
+2021-09-12T17:24:40.224566+00:00 app[web.1]: 10.1.86.117 - - [12/Sep/2021:17:24:40 +0000] "GET /registropaciente/ping HTTP/1.1" 405 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:41.252993+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=947d1248-dcd6-4af2-9c63-c78b2d78d668 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=401 bytes=212 protocol=https
+2021-09-12T17:24:41.254444+00:00 app[web.1]: 12/09/2021 05:24:41 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+2021-09-12T17:24:41.255313+00:00 app[web.1]: 10.1.81.8 - - [12/Sep/2021:17:24:41 +0000] "GET /registropaciente/ping HTTP/1.1" 401 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:42.279420+00:00 app[web.1]: 12/09/2021 05:24:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:42.279433+00:00 app[web.1]: 12/09/2021 05:24:42 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:42.279538+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=df48dc50-e3e4-4c56-83a5-51fb3f4fbae9 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:42.280059+00:00 app[web.1]: 10.1.89.19 - - [12/Sep/2021:17:24:42 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:43.300154+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=1409350f-01f9-4143-8376-331d27ac73d3 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:43.303708+00:00 app[web.1]: 12/09/2021 05:24:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:43.303721+00:00 app[web.1]: 12/09/2021 05:24:43 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:43.304468+00:00 app[web.1]: 10.1.16.66 - - [12/Sep/2021:17:24:43 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:44.325927+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=5ba3a110-7aba-4538-8c77-f63346df1148 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=403 bytes=209 protocol=https
+2021-09-12T17:24:44.326126+00:00 app[web.1]: 12/09/2021 05:24:44 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:24:44.326937+00:00 app[web.1]: 10.1.41.13 - - [12/Sep/2021:17:24:44 +0000] "GET /registropaciente/ping HTTP/1.1" 403 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:45.353686+00:00 app[web.1]: 12/09/2021 05:24:45 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:45.353713+00:00 app[web.1]: 12/09/2021 05:24:45 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:45.353795+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=03ed06c1-b76a-4546-a99a-5146760a8803 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:45.354350+00:00 app[web.1]: 10.1.28.122 - - [12/Sep/2021:17:24:45 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:46.374949+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=9473e66e-adda-4518-8ea8-875fd77fbcbb fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:46.375218+00:00 app[web.1]: 12/09/2021 05:24:46 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:46.375231+00:00 app[web.1]: 12/09/2021 05:24:46 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:46.375912+00:00 app[web.1]: 10.1.93.69 - - [12/Sep/2021:17:24:46 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:47.396200+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=88143d2a-f6d4-4cd9-bd8b-da57dc52d3f2 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:47.396335+00:00 app[web.1]: 12/09/2021 05:24:47 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:47.396339+00:00 app[web.1]: 12/09/2021 05:24:47 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:47.396997+00:00 app[web.1]: 10.1.14.211 - - [12/Sep/2021:17:24:47 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:48.412050+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c79a20d6-f0fb-4146-8638-5aa3705ee9a3 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=500 bytes=221 protocol=https
+2021-09-12T17:24:48.418266+00:00 app[web.1]: 12/09/2021 05:24:48 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:24:48.418279+00:00 app[web.1]: 12/09/2021 05:24:48 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:24:48.418929+00:00 app[web.1]: 10.1.32.193 - - [12/Sep/2021:17:24:48 +0000] "GET /registropaciente/ping HTTP/1.1" 500 25 "-" "python-requests/2.22.0"
+2021-09-12T17:24:49.441998+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=4ca7f6e4-67cc-497c-97a8-952b1325def5 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:49.442036+00:00 app[web.1]: 12/09/2021 05:24:49 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:49.442747+00:00 app[web.1]: 10.1.45.100 - - [12/Sep/2021:17:24:49 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:24:50.458698+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=3ea468e9-83b3-4eea-bdee-5630d6c14e57 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:24:50.458746+00:00 app[web.1]: 12/09/2021 05:24:50 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:50.458759+00:00 app[web.1]: 12/09/2021 05:24:50 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:24:50.459716+00:00 app[web.1]: 10.1.93.69 - - [12/Sep/2021:17:24:50 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+*********************************************************** Prueba 2 ***********************************************************
+2021-09-12T17:31:55.712319+00:00 app[web.1]: 12/09/2021 05:31:55 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:31:55.712345+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=bd0c284e-d2f3-4d01-b1ba-bfb3b7ec1e20 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:31:55.713053+00:00 app[web.1]: 10.1.94.238 - - [12/Sep/2021:17:31:55 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:31:56.740654+00:00 app[web.1]: 12/09/2021 05:31:56 PM - LlamadaMicroservicio - DEBUG - 408 Error en la aplicacion
+2021-09-12T17:31:56.740879+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=fc3af49a-0c3f-4d89-bd33-fb51e810893a fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=408 bytes=215 protocol=https
+2021-09-12T17:31:56.741601+00:00 app[web.1]: 10.1.28.122 - - [12/Sep/2021:17:31:56 +0000] "GET /registropaciente/ping HTTP/1.1" 408 25 "-" "python-requests/2.22.0"
+2021-09-12T17:31:57.765930+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=6826c6ab-02cf-4da0-8ac5-657e14022425 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=403 bytes=209 protocol=https
+2021-09-12T17:31:57.766226+00:00 app[web.1]: 12/09/2021 05:31:57 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:31:57.766238+00:00 app[web.1]: 12/09/2021 05:31:57 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:31:57.766883+00:00 app[web.1]: 10.1.36.177 - - [12/Sep/2021:17:31:57 +0000] "GET /registropaciente/ping HTTP/1.1" 403 25 "-" "python-requests/2.22.0"
+2021-09-12T17:31:58.787548+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=ce5fc14b-0cf3-4af7-a36b-551926dab4a6 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:31:58.787694+00:00 app[web.1]: 12/09/2021 05:31:58 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:31:58.788334+00:00 app[web.1]: 10.1.28.122 - - [12/Sep/2021:17:31:58 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:31:59.811718+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=2aa7318d-c66f-471e-9cb3-a36d9c65fec6 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=406 bytes=214 protocol=https
+2021-09-12T17:31:59.813751+00:00 app[web.1]: 12/09/2021 05:31:59 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+2021-09-12T17:31:59.813763+00:00 app[web.1]: 12/09/2021 05:31:59 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+2021-09-12T17:31:59.814393+00:00 app[web.1]: 10.1.24.26 - - [12/Sep/2021:17:31:59 +0000] "GET /registropaciente/ping HTTP/1.1" 406 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:00.831781+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=10f617c2-5a38-410d-b940-da0bee68afa7 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=400 bytes=211 protocol=https
+2021-09-12T17:32:00.835139+00:00 app[web.1]: 12/09/2021 05:32:00 PM - LlamadaMicroservicio - DEBUG - 400 Error en la aplicacion
+2021-09-12T17:32:00.836004+00:00 app[web.1]: 10.1.25.23 - - [12/Sep/2021:17:32:00 +0000] "GET /registropaciente/ping HTTP/1.1" 400 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:01.856206+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=74f19942-d113-46bd-8007-9f33460f3680 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:01.856533+00:00 app[web.1]: 12/09/2021 05:32:01 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:01.856547+00:00 app[web.1]: 12/09/2021 05:32:01 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:01.857158+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:32:01 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:02.880294+00:00 app[web.1]: 12/09/2021 05:32:02 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:02.880522+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=b9e1fc23-f033-43cc-b9aa-562944c0c127 fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:02.881256+00:00 app[web.1]: 10.1.15.253 - - [12/Sep/2021:17:32:02 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:03.900475+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=e20f6421-501e-4f9a-983c-8fe14dd770ee fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:03.901279+00:00 app[web.1]: 12/09/2021 05:32:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:03.901290+00:00 app[web.1]: 12/09/2021 05:32:03 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:03.902025+00:00 app[web.1]: 10.1.81.8 - - [12/Sep/2021:17:32:03 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:04.923415+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=12378e57-2cfa-47f3-982c-905ae203a1af fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=500 bytes=221 protocol=https
+2021-09-12T17:32:04.924454+00:00 app[web.1]: 12/09/2021 05:32:04 PM - LlamadaMicroservicio - DEBUG - 500 Error en la aplicacion
+2021-09-12T17:32:04.925061+00:00 app[web.1]: 10.1.39.127 - - [12/Sep/2021:17:32:04 +0000] "GET /registropaciente/ping HTTP/1.1" 500 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:05.949554+00:00 app[web.1]: 12/09/2021 05:32:05 PM - LlamadaMicroservicio - DEBUG - 505 Error en la aplicacion
+2021-09-12T17:32:05.950420+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=3cfbb6e9-fc00-479d-a1ed-4980f773a487 fwd="35.172.217.89" dyno=web.1 connect=0ms service=4ms status=505 bytes=226 protocol=https
+2021-09-12T17:32:05.950532+00:00 app[web.1]: 10.1.27.156 - - [12/Sep/2021:17:32:05 +0000] "GET /registropaciente/ping HTTP/1.1" 505 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:06.992291+00:00 app[web.1]: 12/09/2021 05:32:06 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+2021-09-12T17:32:06.993331+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=56e36b73-8dad-4b2f-9d44-6ad174f369c2 fwd="35.172.217.89" dyno=web.1 connect=0ms service=5ms status=401 bytes=212 protocol=https
+2021-09-12T17:32:06.994903+00:00 app[web.1]: 12/09/2021 05:32:06 PM - LlamadaMicroservicio - DEBUG - 401 Error en la aplicacion
+2021-09-12T17:32:06.995886+00:00 app[web.1]: 10.1.24.26 - - [12/Sep/2021:17:32:06 +0000] "GET /registropaciente/ping HTTP/1.1" 401 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:08.016594+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c6eeb9c0-7d11-4558-8196-c726fa6898e2 fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:08.018277+00:00 app[web.1]: 12/09/2021 05:32:08 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:08.018427+00:00 app[web.1]: 12/09/2021 05:32:08 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:08.019967+00:00 app[web.1]: 10.1.89.122 - - [12/Sep/2021:17:32:08 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:09.049739+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=77a99112-b6e3-42e7-abd0-ac631f0e6996 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=500 bytes=244 protocol=https
+2021-09-12T17:32:09.051220+00:00 app[web.1]: [2021-09-12 17:32:09 +0000] [7] [ERROR] Error handling request /registropaciente/ping
+2021-09-12T17:32:09.051229+00:00 app[web.1]: Traceback (most recent call last):
+2021-09-12T17:32:09.051230+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/gunicorn/workers/sync.py", line 136, in handle
+2021-09-12T17:32:09.051231+00:00 app[web.1]: self.handle_request(listener, req, client, addr)
+2021-09-12T17:32:09.051231+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+2021-09-12T17:32:09.051232+00:00 app[web.1]: respiter = self.wsgi(environ, resp.start_response)
+2021-09-12T17:32:09.051232+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+2021-09-12T17:32:09.051232+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2021-09-12T17:32:09.051233+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+2021-09-12T17:32:09.051233+00:00 app[web.1]: response = self.handle_exception(e)
+2021-09-12T17:32:09.051233+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 271, in error_router
+2021-09-12T17:32:09.051234+00:00 app[web.1]: return original_handler(e)
+2021-09-12T17:32:09.051235+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+2021-09-12T17:32:09.051235+00:00 app[web.1]: return cors_after_request(app.make_response(f(*args, **kwargs)))
+2021-09-12T17:32:09.051236+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+2021-09-12T17:32:09.051236+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2021-09-12T17:32:09.051236+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/_compat.py", line 38, in reraise
+2021-09-12T17:32:09.051237+00:00 app[web.1]: raise value.with_traceback(tb)
+2021-09-12T17:32:09.051237+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+2021-09-12T17:32:09.051237+00:00 app[web.1]: response = self.full_dispatch_request()
+2021-09-12T17:32:09.051238+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+2021-09-12T17:32:09.051238+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2021-09-12T17:32:09.051238+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 271, in error_router
+2021-09-12T17:32:09.051238+00:00 app[web.1]: return original_handler(e)
+2021-09-12T17:32:09.051239+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+2021-09-12T17:32:09.051239+00:00 app[web.1]: return cors_after_request(app.make_response(f(*args, **kwargs)))
+2021-09-12T17:32:09.051239+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+2021-09-12T17:32:09.051239+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2021-09-12T17:32:09.051240+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/_compat.py", line 38, in reraise
+2021-09-12T17:32:09.051240+00:00 app[web.1]: raise value.with_traceback(tb)
+2021-09-12T17:32:09.051240+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+2021-09-12T17:32:09.051240+00:00 app[web.1]: rv = self.dispatch_request()
+2021-09-12T17:32:09.051241+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+2021-09-12T17:32:09.051241+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2021-09-12T17:32:09.051241+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 467, in wrapper
+2021-09-12T17:32:09.051242+00:00 app[web.1]: resp = resource(*args, **kwargs)
+2021-09-12T17:32:09.051242+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/views.py", line 89, in view
+2021-09-12T17:32:09.051242+00:00 app[web.1]: return self.dispatch_request(*args, **kwargs)
+2021-09-12T17:32:09.051243+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+2021-09-12T17:32:09.051243+00:00 app[web.1]: resp = meth(*args, **kwargs)
+2021-09-12T17:32:09.051244+00:00 app[web.1]: File "/app/flaskr/vistas/vistas.py", line 34, in get
+2021-09-12T17:32:09.051244+00:00 app[web.1]: errorCode = erroCodes[responseIndex]
+2021-09-12T17:32:09.051244+00:00 app[web.1]: IndexError: list index out of range
+2021-09-12T17:32:09.051372+00:00 app[web.1]: 10.1.94.148 - - [12/Sep/2021:17:32:09 +0000] "GET /registropaciente/ping HTTP/1.1" 500 0 "-" "-"
+2021-09-12T17:32:10.071006+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c7032e22-19d8-410f-ac3e-19c07eda386b fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:10.071551+00:00 app[web.1]: 12/09/2021 05:32:10 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:10.071567+00:00 app[web.1]: 12/09/2021 05:32:10 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:10.071568+00:00 app[web.1]: 12/09/2021 05:32:10 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:10.072350+00:00 app[web.1]: 10.1.85.17 - - [12/Sep/2021:17:32:10 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:11.091884+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=80a0fdb9-8d22-4b6d-b42d-f652c31a80fc fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=406 bytes=214 protocol=https
+2021-09-12T17:32:11.091916+00:00 app[web.1]: 12/09/2021 05:32:11 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+2021-09-12T17:32:11.092704+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:32:11 +0000] "GET /registropaciente/ping HTTP/1.1" 406 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:13.112652+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=7debab25-0aca-496d-91d1-d8caa1fb55a8 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:13.113653+00:00 app[web.1]: 12/09/2021 05:32:13 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:13.113668+00:00 app[web.1]: 12/09/2021 05:32:13 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:13.113668+00:00 app[web.1]: 12/09/2021 05:32:13 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:13.114310+00:00 app[web.1]: 10.1.39.127 - - [12/Sep/2021:17:32:13 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:14.139437+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=9950b3c0-2e5e-43b2-aae9-b1777cda7d18 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=403 bytes=209 protocol=https
+2021-09-12T17:32:14.139467+00:00 app[web.1]: 12/09/2021 05:32:14 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:32:14.140139+00:00 app[web.1]: 10.1.14.211 - - [12/Sep/2021:17:32:14 +0000] "GET /registropaciente/ping HTTP/1.1" 403 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:15.158129+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=54d38f1c-7c36-43b7-9220-58d3643acecb fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=504 bytes=215 protocol=https
+2021-09-12T17:32:15.160560+00:00 app[web.1]: 12/09/2021 05:32:15 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+2021-09-12T17:32:15.160570+00:00 app[web.1]: 12/09/2021 05:32:15 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+2021-09-12T17:32:15.160591+00:00 app[web.1]: 12/09/2021 05:32:15 PM - LlamadaMicroservicio - DEBUG - 504 Error en la aplicacion
+2021-09-12T17:32:15.161231+00:00 app[web.1]: 10.1.89.122 - - [12/Sep/2021:17:32:15 +0000] "GET /registropaciente/ping HTTP/1.1" 504 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:16.165754+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=7bba20bf-d6cb-4ccc-b118-d24c34cca977 fwd="35.172.217.89" dyno=web.1 connect=0ms service=3ms status=406 bytes=214 protocol=https
+2021-09-12T17:32:16.180697+00:00 app[web.1]: 12/09/2021 05:32:16 PM - LlamadaMicroservicio - DEBUG - 406 Error en la aplicacion
+2021-09-12T17:32:16.181365+00:00 app[web.1]: 10.1.33.133 - - [12/Sep/2021:17:32:16 +0000] "GET /registropaciente/ping HTTP/1.1" 406 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:17.203828+00:00 app[web.1]: 12/09/2021 05:32:17 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:17.204228+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=00cd9d94-9758-43fd-aabc-3b6c57d1298c fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:17.204643+00:00 app[web.1]: 10.1.46.245 - - [12/Sep/2021:17:32:17 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:18.227745+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=e1f1e08f-a32e-43be-b5b0-06b5a5e21f40 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:18.229613+00:00 app[web.1]: 12/09/2021 05:32:18 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:18.230320+00:00 app[web.1]: 10.1.86.117 - - [12/Sep/2021:17:32:18 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:19.250893+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c230fc83-ae6d-4e4f-a09c-65a42115a5f1 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:19.250957+00:00 app[web.1]: 12/09/2021 05:32:19 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:19.250973+00:00 app[web.1]: 12/09/2021 05:32:19 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:19.250973+00:00 app[web.1]: 12/09/2021 05:32:19 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:19.251621+00:00 app[web.1]: 10.1.18.53 - - [12/Sep/2021:17:32:19 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:20.269686+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=4b818737-51f0-47c3-889a-b5342a12ba76 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:20.271671+00:00 app[web.1]: 12/09/2021 05:32:20 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:20.272290+00:00 app[web.1]: 10.1.86.117 - - [12/Sep/2021:17:32:20 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:21.290858+00:00 app[web.1]: 12/09/2021 05:32:21 PM - LlamadaMicroservicio - DEBUG - 404 Error en la aplicacion
+2021-09-12T17:32:21.291687+00:00 app[web.1]: 10.1.6.108 - - [12/Sep/2021:17:32:21 +0000] "GET /registropaciente/ping HTTP/1.1" 404 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:21.312933+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=35919f35-9cb8-4328-9e3f-e53e50c3d364 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=404 bytes=209 protocol=https
+2021-09-12T17:32:22.320425+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=1ccb84e3-630a-4689-a628-f37d6b9d884b fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=503 bytes=219 protocol=https
+2021-09-12T17:32:22.321311+00:00 app[web.1]: 12/09/2021 05:32:22 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+2021-09-12T17:32:22.321326+00:00 app[web.1]: 12/09/2021 05:32:22 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+2021-09-12T17:32:22.321326+00:00 app[web.1]: 12/09/2021 05:32:22 PM - LlamadaMicroservicio - DEBUG - 503 Error en la aplicacion
+2021-09-12T17:32:22.321968+00:00 app[web.1]: 10.1.81.8 - - [12/Sep/2021:17:32:22 +0000] "GET /registropaciente/ping HTTP/1.1" 503 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:23.340794+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=c512f133-4cee-4a09-b1e1-3afddc2a2fbc fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:23.341518+00:00 app[web.1]: 12/09/2021 05:32:23 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:23.342218+00:00 app[web.1]: 10.1.85.17 - - [12/Sep/2021:17:32:23 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:24.360079+00:00 app[web.1]: 12/09/2021 05:32:24 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:24.360293+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=ad08f72c-32c7-45ab-8e84-86dca8e2a45b fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:24.360712+00:00 app[web.1]: 10.1.46.245 - - [12/Sep/2021:17:32:24 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
+2021-09-12T17:32:25.383148+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=2ee03e27-4b3a-463d-ab74-b6c4d69be245 fwd="35.172.217.89" dyno=web.1 connect=0ms service=2ms status=403 bytes=209 protocol=https
+2021-09-12T17:32:25.383274+00:00 app[web.1]: 12/09/2021 05:32:25 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:32:25.383285+00:00 app[web.1]: 12/09/2021 05:32:25 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:32:25.383303+00:00 app[web.1]: 12/09/2021 05:32:25 PM - LlamadaMicroservicio - DEBUG - 403 Error en la aplicacion
+2021-09-12T17:32:25.384165+00:00 app[web.1]: 10.1.20.110 - - [12/Sep/2021:17:32:25 +0000] "GET /registropaciente/ping HTTP/1.1" 403 25 "-" "python-requests/2.22.0"
+2021-09-12T17:32:26.402482+00:00 heroku[router]: at=info method=GET path="/registropaciente/ping" host=microservicio-dos-grupo5.herokuapp.com request_id=10287a28-8168-43e3-b36c-ddb9124ef457 fwd="35.172.217.89" dyno=web.1 connect=0ms service=1ms status=200 bytes=181 protocol=https
+2021-09-12T17:32:26.404731+00:00 app[web.1]: 12/09/2021 05:32:26 PM - LlamadaMicroservicio - DEBUG - 200 OK
+2021-09-12T17:32:26.405673+00:00 app[web.1]: 10.1.89.122 - - [12/Sep/2021:17:32:26 +0000] "GET /registropaciente/ping HTTP/1.1" 200 5 "-" "python-requests/2.22.0"
